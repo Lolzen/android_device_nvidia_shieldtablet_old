@@ -143,3 +143,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/twrp/para_10_0b_00_a0.so:recovery/root/system/lib/para_10_0b_00_a0.so
 
 $(call inherit-product, device/nvidia/shield-common/shield.mk)
+
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
