@@ -118,9 +118,6 @@ PRODUCT_PACKAGES += \
 # Radio Interface
 PRODUCT_PACKAGES += rild
 
-# Low memory killer daemon
-PRODUCT_PACKAGES += lmkd
-
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/twrp/twrp.fstab:recovery/root/etc/twrp.fstab \

@@ -1,2 +1,1 @@
 add_lunch_combo omni_shieldtablet-userdebug
-add_lunch_combo omni_shieldtablet-eng
