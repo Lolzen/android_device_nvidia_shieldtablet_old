@@ -61,7 +61,6 @@ BCM_BLUETOOTH_MANTA_BUG := true
 # Graphics
 USE_OPENGL_RENDERER := true
 BOARD_DISABLE_TRIPLE_BUFFERED_DISPLAY_SURFACES := true
-TARGET_HAS_PREBUILT_HWC := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
